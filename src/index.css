@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Merriweather&family=Montserrat&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto&family=Sacramento&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'outfit', sans-serif;
+}
+
+body{
+  background-color: black;
+}
+h1, h4, p, a{
+  color: white;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  border-radius: 30px;
+  text-transform: uppercase;
+  background: rgb(248,217,15);
+  color: black;
+  border: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light{
+  background: transparent;
+  padding: 12px 32px;
+  font-size: 1rem;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.btn:hover{
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: 0.3s;
+}
+.btn-light:hover{
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: 0.3s;
+}
