@@ -15,7 +15,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
+            Full stack developer, I create web pages with UI / UX user interface,
             I have just started this experience and carried out some projects.
           </p>
           <a download="" href={CV} className="button button--flex">
