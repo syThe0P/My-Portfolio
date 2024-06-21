@@ -4,6 +4,8 @@ import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
 import Work6 from "../../assets/work6.jpg";
+import Work7 from "../../assets/work7.jpg";
+import Work8 from "../../assets/work8.jpg";
 
 export const projectsData = [
   {
@@ -53,6 +55,22 @@ export const projectsData = [
     title: "Web design",
     category: "web",
     link: "https://github.com/syThe0P/weather",
+  },
+  {
+    id: 7,
+    image: Work7,
+    project: "Covid Tracker",
+    title: "Web design",
+    category: "web",
+    link: "https://covid19-trackerbypranav.netlify.app/",
+  },
+  {
+    id: 8,
+    image: Work8,
+    project: "E-Commerce",
+    title: "Web design",
+    category: "web",
+    link: "https://eccomercebypranav.netlify.app/",
   },
   
 
